@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="/frontend/css/style.css">
+
+    <script src="../../js/components/navbarLoad.js"></script>
+    <script src="../../views/components/heroLoad.js"></script>
+    <script src="../../js/components/formLoad.js"></script>
+
+    <script type="module"> 
+    import { loadCards } from "/frontend/js/components/cardLoad.js"; 
+    loadCards(".cards-container"); // sin IDs = todas las cards 
+    </script>
+
+</head>
+<body>
+    <!--encabezado-->
+    <header class="header">
+        <h1 class="tittle">Sofia Cardona <span class="subtitle">maceniso</span></h1>
+    </header><!--header-->
+    <!--Aqui voy a insertar el navbar-->
+    <div class="navbar-container"></div>
+
+    <div class="hero-container"></div>
+
+
+    <main>
+        <section class="service-container">
+
+        <h2 class="service__title"> Mis servicios </h2>
+        <div class="cards-container"></div>
+        <h2 class="service__title"> Contacto</h2>
+
+        <div class="form-container"></div>
+
+
+
+        </section>
+
+    </main>
+
+        <p>Derechos reservados sofi</p>
+
+</body>
+</html>
